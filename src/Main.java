@@ -1,3 +1,7 @@
+
+
+
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -12,7 +16,14 @@ public class Main {
 //        System.out.println(html);
 
         buscarHtml(html);
+        System.out.println(traducirJsoup("perro"));
 
+    }
+
+    private static String traducirJsoup(String palabra){
+        String cadena = null;
+
+        Document document = null;
     }
 
     private static void buscarHtml(String html) {
